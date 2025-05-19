@@ -16,7 +16,7 @@ app.use('/api/v1/user', require('./routes/userRoutes'));
 app.use('/api/v1/admin', require('./routes/adminRoutes'));
 app.use('/api/v1/doctor', require('./routes/doctorRoutes'));
 //port
-const port = process.env.PORT || 7666; 
+const port = process.env.PORT || 7822; 
 
 app.use((req,res)=>{
     res.send("API is running")
